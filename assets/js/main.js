@@ -5,16 +5,16 @@
             Navbar Area
     :::::::::::::::::::::::::::::::::::*/
 
-     // Navbar Sticky
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
+    //  // Navbar Sticky
+    // $(window).scroll(function () {
+    //     var scroll = $(window).scrollTop();
 
-        if (scroll >= 1) {
-            $(".navbar").addClass("bg-primari");
-        } else {
-            $(".navbar").removeClass("bg-primari");
-        }
-    });
+    //     if (scroll >= 1) {
+    //         $(".navbar").addClass("bg-primari");
+    //     } else {
+    //         $(".navbar").removeClass("bg-primari");
+    //     }
+    // });
 
 
     //Smoth Scroll
@@ -86,7 +86,7 @@
 
 
     /*::::::::::::::::::::::::::::::::::::
-       Contact Area 
+       Contact Area
     ::::::::::::::::::::::::::::::::::::*/
     var form = $('#contact-form');
 
@@ -117,8 +117,8 @@
                 }
             });
     });
-    
-    
+
+
     /*::::::::::::::::::::::::::::::::::::
     Preloader
     ::::::::::::::::::::::::::::::::::::*/
