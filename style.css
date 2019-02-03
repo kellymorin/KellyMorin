@@ -336,7 +336,6 @@ button:focus {
     z-index: 1;
 }
 
-/* TODO: Ask Sebastian, want to put a gradient here so that the navbar is visible but it doesn't make marble texture too dark */
 .slider-bg:after {
     content: '';
     position: absolute;
